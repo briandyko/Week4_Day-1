@@ -1,0 +1,45 @@
+﻿body {
+}
+
+p {
+    color:blue;
+    font-family: Arial;
+    font-size: 12px;        /*Element*/
+}
+
+/*This is a comment*/
+
+.funkyFresh {
+    color:burlywood;
+    font-family:'Franklin Gothic';   /*Class*/
+    font-size: 22px;
+}
+
+#theThird {
+    color:darkorchid;
+    font-family: 'Fjalla One', sans-serif;     /*ID*/
+    font-size: 33px;
+}
+
+#thisIsATest {
+    color:firebrick;
+    font-family: 'Nosifer', cursive;
+    font-size: 33px;
+    font-stretch:extra-expanded;
+    font-variant-caps:petite-caps;
+    text-shadow:initial;
+}
+
+h1,h3,h6 {
+     color:lawngreen;
+     font-family: 'Indie Flower', cursive;    /*grouping*/
+}
+
+ol li {
+    color: darkred;
+    font-size: 15px;
+    text-decoration:line-through;
+    font-family: 'Titillium Web', sans-serif;
+
+       /*hierarchy -- all list items in an ordered list.  Doesn't affect the element with the class specifically pointing to the one element*/
+}
